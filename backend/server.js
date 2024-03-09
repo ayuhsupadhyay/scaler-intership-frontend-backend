@@ -17,7 +17,7 @@ main().catch(err => console.log(err));
 const cors = require('cors');
 const corsOptions = {
     credentials: true,
-    origin: ['http://localhost:3000'],
+    origin: ['https://scaler-intership-frontend-backend-rkas.vercel.app'],
 }
 app.use(cors(corsOptions));
 const bookingRouter = require('./router.js');
