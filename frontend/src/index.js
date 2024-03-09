@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import axios  from 'axios';
-axios.defaults.baseURL="http://localhost:5000";
+axios.defaults.baseURL="https://vercel.com/ayuhsupadhyays-projects/scaler-intership-frontend-backend";
 axios.defaults.withCredentials=true;
 
 
