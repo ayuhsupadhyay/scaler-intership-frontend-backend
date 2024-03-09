@@ -6,7 +6,7 @@ app.use(express.json()); // Parse JSON bodies
 // Connect to MongoDB
 async function main() {
     try {
-        await mongoose.connect("mongodb://127.0.0.1:27017/hotel", { useNewUrlParser: true, useUnifiedTopology: true });
+        await mongoose.connect('mongodb+srv://AyushUpadhyay:f3YZ29WfCyKArnED@cluster0.zrlkuij.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
         console.log('Database connection established');
     } catch (err) {
         console.error('Database connection error:', err);

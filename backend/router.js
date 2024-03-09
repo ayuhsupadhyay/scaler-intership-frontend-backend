@@ -4,6 +4,9 @@ const { createBooking, getAllBookings, deleteBookingById } = require('./controll
 
 // POST request to create a new booking
 router.post('/booking', createBooking);
+router.get('/', (req,res)=>{
+    res.status(200).json("Hi");
+});
 
 // GET request to fetch all bookings
 router.get('/bookings', getAllBookings);
