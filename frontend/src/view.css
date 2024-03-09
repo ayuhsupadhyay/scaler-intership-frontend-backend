@@ -1,0 +1,62 @@
+.view-container {
+    text-align: center;
+    
+    
+    
+    
+  }
+  
+  .view-heading {
+    margin-bottom: 20px;
+    background: #a19c9c;
+    color: white; /* Text color */
+    font-size: 24px; /* Font size */
+    text-align: center; /* Center text horizontally */
+    line-height: 50px; /* Vertically center text */
+    width: 200px; /* Set width */
+    height: 50px; /* Set height */
+    margin: 0 auto; /* Center horizontally */
+    border-radius: 25px; /* Rounded corners */
+  }
+  
+  
+  
+  .booking-table {
+    background-color: #ddd;
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 20px;
+    margin: 0 auto;
+  }
+  
+  .booking-table th, .booking-table td {
+    border: 1.6px solid #070707;
+    padding: 8px;
+    font-size: 15px;
+  }
+  
+  .booking-table th {
+    background-color: #a19c9c;
+  }
+  
+  
+  .action-cell {
+    width: 50px; /* Adjust the width of the action cell */
+    
+     
+  }
+  
+  .action-cell button {
+    width: 80%;
+    height: 80%;
+    font-size: 8px;
+    font-weight: bold; /* Add font-weight: bold; to make the font bold */
+  }
+  
+  .white-text td {
+    
+    font-weight: bold;
+  }
+  
+  
+  

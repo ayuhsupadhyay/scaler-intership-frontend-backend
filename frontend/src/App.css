@@ -1,0 +1,13 @@
+.management{
+    margin-top: 3px; /* Add some top margin */
+    margin-bottom: 20px; /* Add some bottom margin */
+    margin-left: 10px;
+    color: #eee6e6; /* Text color */
+    font-size: 36px; /* Font size */
+    font-weight: bold; /* Bold font weight */
+    text-align: left; /* Align text to the left */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    text-underline-position: below;
+    
+  }
+  

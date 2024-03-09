@@ -1,0 +1,146 @@
+
+
+.booking-form {
+  
+  width: 800px;
+  box-sizing: border-box;
+  padding: 10px;
+  background: #ccc0c0;
+  border-radius: 5px;
+  /* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+/* Booking Form Styles */
+.booking-form {
+  width: 800px;
+  box-sizing: border-box;
+  padding: 20px;
+  
+  
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.heading {
+  text-align: center;
+  /* margin-bottom: 20px; */
+  font-size: 24px;
+  color: #333; /* Dark gray color */
+}
+
+.sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555; /* Dark gray color */
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px;
+}
+
+button {
+  background-color: #da9483; /* Green background */
+  color: #201d1d; /* White text */
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  font-size: large;
+  transition: background-color 0.3s ease;
+  
+  /* Centering using flexbox */
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  margin: 0 auto; /* Center horizontally */
+}
+
+
+button:hover {
+  background-color: #422525; /* Darker green on hover */
+}
+
+/* Tablet Styles */
+@media (min-width: 600px) {
+  .booking-form {
+    width: 60%;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+  .booking-form {
+    width: 50%;
+  }
+}
+
+}
+.heading{
+  text-align: center;
+}
+.sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.pricc-for-room{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  box-sizing: border-box;
+ 
+  
+}
+button{
+  width:150px;
+  margin-left: 200px;
+  background-color: green;
+  color: white;
+}
+
+/* Tablet Styles */
+@media (min-width: 600px) {
+  .booking-form {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+  .booking-form {
+    width: 40%;
+  }
+}
